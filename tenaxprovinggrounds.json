@@ -1,6 +1,6 @@
 {
 	"Name": "Tenax Proving Grounds",
-	"Version": 1756254511,
+	"Version": 1756343281,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -870,6 +870,7 @@
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
+				"50",
 				"112"
 			],
 			"SurvivorComboPerkBans": [],
@@ -1060,7 +1061,9 @@
 				"115"
 			],
 			"SurvivorComboPerkBans": [],
-			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedPerks": [
+				"34"
+			],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
