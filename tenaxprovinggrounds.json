@@ -1,6 +1,6 @@
 {
 	"Name": "Tenax Proving Grounds",
-	"Version": 1756343281,
+	"Version": 1757015079,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -12,6 +12,7 @@
 				"7",
 				"258",
 				"11",
+				"13",
 				"16",
 				"17",
 				"18",
@@ -20,6 +21,7 @@
 				"20",
 				"22",
 				"60",
+				"286",
 				"288",
 				"33",
 				"40",
@@ -139,6 +141,7 @@
 			"KillerIndvPerkBans": [
 				"134",
 				"170",
+				"220",
 				"235"
 			],
 			"SurvivorComboPerkBans": [],
@@ -431,10 +434,10 @@
 				54
 			],
 			"ItemWhitelist": [
-				17,
 				10,
 				5,
-				0
+				0,
+				15
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -471,7 +474,12 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
 			"KillerOfferings": [
 				5
 			]
@@ -520,9 +528,9 @@
 			],
 			"ItemWhitelist": [
 				10,
-				17,
 				5,
-				0
+				0,
+				15
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1109,10 +1117,7 @@
 				}
 			},
 			"SurvivorOfferings": [
-				0,
-				1,
-				2,
-				4
+				5
 			],
 			"KillerOfferings": [
 				5
@@ -1598,9 +1603,9 @@
 			],
 			"ItemWhitelist": [
 				10,
-				17,
 				5,
-				0
+				0,
+				15
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
