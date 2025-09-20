@@ -1,6 +1,6 @@
 {
 	"Name": "Tenax Proving Grounds",
-	"Version": 1757015079,
+	"Version": 1758325921,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -12,7 +12,6 @@
 				"7",
 				"258",
 				"11",
-				"13",
 				"16",
 				"17",
 				"18",
@@ -21,7 +20,6 @@
 				"20",
 				"22",
 				"60",
-				"286",
 				"288",
 				"33",
 				"40",
@@ -141,7 +139,6 @@
 			"KillerIndvPerkBans": [
 				"134",
 				"170",
-				"220",
 				"235"
 			],
 			"SurvivorComboPerkBans": [],
@@ -327,9 +324,9 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
-				"0",
-				"33",
-				"34"
+				"3",
+				"50",
+				"33"
 			],
 			"BalanceTiers": [
 				0,
@@ -404,7 +401,7 @@
 		{
 			"Name": "The Hillbilly",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"42",
 				"6",
@@ -434,10 +431,10 @@
 				54
 			],
 			"ItemWhitelist": [
+				17,
 				10,
 				5,
-				0,
-				15
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -474,12 +471,7 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [
-				0,
-				1,
-				2,
-				5
-			],
+			"SurvivorOfferings": [],
 			"KillerOfferings": [
 				5
 			]
@@ -487,7 +479,7 @@
 		{
 			"Name": "The Nurse",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"0",
 				"10",
@@ -528,9 +520,9 @@
 			],
 			"ItemWhitelist": [
 				10,
+				17,
 				5,
-				0,
-				15
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -682,9 +674,11 @@
 		{
 			"Name": "The Doctor",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"2",
+				"9"
 			],
 			"BalanceTiers": [
 				0
@@ -737,7 +731,7 @@
 			"Map": [
 				"2",
 				"8",
-				"54"
+				"33"
 			],
 			"BalanceTiers": [
 				0,
@@ -863,7 +857,7 @@
 			"IsDisabled": false,
 			"Map": [
 				"0",
-				"1",
+				"8",
 				"33"
 			],
 			"BalanceTiers": [
@@ -1039,8 +1033,8 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
+				"7",
 				"8",
-				"12",
 				"19"
 			],
 			"BalanceTiers": [
@@ -1117,7 +1111,10 @@
 				}
 			},
 			"SurvivorOfferings": [
-				5
+				0,
+				1,
+				2,
+				4
 			],
 			"KillerOfferings": [
 				5
@@ -1181,7 +1178,7 @@
 			"Map": [
 				"4",
 				"5",
-				"12"
+				"11"
 			],
 			"BalanceTiers": [
 				0,
@@ -1304,7 +1301,7 @@
 		{
 			"Name": "The Demogorgon",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
@@ -1376,7 +1373,9 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
-				"0"
+				"0",
+				"12",
+				"33"
 			],
 			"BalanceTiers": [
 				0,
@@ -1554,7 +1553,7 @@
 			"Map": [
 				"4",
 				"6",
-				"7"
+				"52"
 			],
 			"BalanceTiers": [
 				0,
@@ -1603,9 +1602,9 @@
 			],
 			"ItemWhitelist": [
 				10,
+				17,
 				5,
-				0,
-				15
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1810,8 +1809,8 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
+				"42",
 				"8",
-				"17",
 				"33"
 			],
 			"BalanceTiers": [
@@ -1886,9 +1885,11 @@
 		{
 			"Name": "The Artist",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"4",
+				"5",
+				"8"
 			],
 			"BalanceTiers": [
 				0
@@ -1896,7 +1897,7 @@
 			"SurvivorBalanceTiers": [
 				0
 			],
-			"AntiFacecampPermitted": false,
+			"AntiFacecampPermitted": true,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [],
@@ -1988,7 +1989,7 @@
 		{
 			"Name": "The Dredge",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"34"
 			],
@@ -2062,7 +2063,7 @@
 		{
 			"Name": "The Mastermind",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"0"
 			],
@@ -2390,7 +2391,7 @@
 		{
 			"Name": "The Unknown",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"54"
 			],
@@ -2465,9 +2466,11 @@
 		{
 			"Name": "The Lich",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"4",
+				"19",
+				"33"
 			],
 			"BalanceTiers": [
 				0
@@ -2520,7 +2523,7 @@
 			"Map": [
 				"9",
 				"16",
-				"49"
+				"50"
 			],
 			"BalanceTiers": [
 				0,
@@ -2641,9 +2644,11 @@
 		{
 			"Name": "The Ghoul",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"6",
+				"8"
 			],
 			"BalanceTiers": [
 				0
@@ -2692,9 +2697,11 @@
 		{
 			"Name": "The Animatronic",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"4",
+				"5",
+				"8"
 			],
 			"BalanceTiers": [
 				0
