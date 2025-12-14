@@ -1,6 +1,6 @@
 {
 	"Name": "Tenax Proving Grounds",
-	"Version": 1765549507,
+	"Version": 1765724718,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -1508,14 +1508,14 @@
 			],
 			"BalanceTiers": [
 				0,
-				1,
-				2,
-				3
+				3,
+				4
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				3,
-				4
+				1,
+				2,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
