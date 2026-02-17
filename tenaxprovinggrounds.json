@@ -1,6 +1,6 @@
 {
 	"Name": "Tenax Proving Grounds",
-	"Version": 1768779340,
+	"Version": 1771353457,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -25,6 +25,7 @@
 				"24",
 				"25",
 				"60",
+				"301",
 				"28",
 				"286",
 				"288",
@@ -36,6 +37,7 @@
 				"42",
 				"43",
 				"280",
+				"303",
 				"268",
 				"267",
 				"46",
@@ -48,6 +50,7 @@
 				"59",
 				"289",
 				"62",
+				"67",
 				"259",
 				"269",
 				"73",
@@ -88,6 +91,7 @@
 				"120",
 				"122",
 				"124",
+				"304",
 				"254",
 				"130"
 			],
@@ -125,12 +129,14 @@
 				"174",
 				"179",
 				"175",
+				"299",
 				"176",
 				"177",
 				"277",
 				"291",
 				"180",
 				"182",
+				"183",
 				"243",
 				"185",
 				"186",
@@ -174,20 +180,8 @@
 			],
 			"SurvivorComboPerkBans": [
 				[
-					"58",
-					"67"
-				],
-				[
 					"36",
 					"78"
-				],
-				[
-					"67",
-					"76"
-				],
-				[
-					"36",
-					"67"
 				],
 				[
 					"69",
@@ -196,10 +190,6 @@
 				[
 					"50",
 					"128"
-				],
-				[
-					"65",
-					"67"
 				]
 			],
 			"KillerComboPerkBans": [
@@ -250,7 +240,8 @@
 				"220",
 				"217",
 				"225",
-				"235"
+				"235",
+				"297"
 			],
 			"SurvivorComboPerkBans": [],
 			"KillerComboPerkBans": []
@@ -266,6 +257,7 @@
 				"279",
 				"57",
 				"67",
+				"76",
 				"96",
 				"102",
 				"109",
@@ -292,18 +284,13 @@
 				"44",
 				"261",
 				"69",
-				"76",
-				"112"
+				"92",
+				"112",
+				"302",
+				"305"
 			],
-			"KillerIndvPerkBans": [
-				"183"
-			],
-			"SurvivorComboPerkBans": [
-				[
-					"50",
-					"92"
-				]
-			],
+			"KillerIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
 			"KillerComboPerkBans": []
 		},
 		{
@@ -1980,15 +1967,20 @@
 		{
 			"Name": "The Twins",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
 				0
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2,
+				3,
+				4
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				1,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2001,13 +1993,22 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5,
+				7
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2025,8 +2026,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Trickster",
@@ -2243,14 +2251,14 @@
 			],
 			"BalanceTiers": [
 				0,
-				2,
 				3,
 				4
 			],
 			"SurvivorBalanceTiers": [
 				0,
 				1,
-				2
+				2,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2269,8 +2277,7 @@
 			],
 			"ItemWhitelist": [
 				0,
-				5,
-				7
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3358,6 +3365,86 @@
 				7,
 				5,
 				0
+			],
+			"AddonWhitelist": {
+				"Firecracker": {
+					"Addons": []
+				},
+				"Flashlight": {
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				"Med-Kit": {
+					"Addons": []
+				},
+				"Toolbox": {
+					"Addons": []
+				},
+				"Key": {
+					"Addons": []
+				},
+				"Map": {
+					"Addons": []
+				},
+				"Fog Vial": {
+					"Addons": []
+				}
+			},
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
+		},
+		{
+			"Name": "The First",
+			"KillerNotes": "",
+			"IsDisabled": false,
+			"Map": [
+				0
+			],
+			"BalanceTiers": [
+				0,
+				2,
+				3,
+				4
+			],
+			"SurvivorBalanceTiers": [
+				0,
+				1,
+				2
+			],
+			"AntiFacecampPermitted": false,
+			"KillerIndvPerkBans": [],
+			"KillerComboPerkBans": [],
+			"SurvivorIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
+			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedComboPerks": [],
+			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedComboPerks": [],
+			"AddonTiersBanned": [],
+			"IndividualAddonBans": [
+				837,
+				838,
+				836,
+				832,
+				824,
+				825,
+				822
+			],
+			"ItemWhitelist": [
+				5,
+				0,
+				7
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
